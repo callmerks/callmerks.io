@@ -1,0 +1,25 @@
+.header{
+	background: linear-gradient(to right bottom, 
+	rgba($color-main, 0.8), 
+	rgba($color-dark, 0.8)),
+	url("../images/header-img.jpg");
+	height: 95vh;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	color: $color-white;
+
+    animation: moveInDown .5s ease-out;
+	clip-path: polygon(0% 0%, 100% 0, 100% 75vh, 0 100%);
+
+	&__logo{
+    animation: moveInRight 1.5s ease-out;
+    color: $color-white;
+    font-size: 2rem;
+    font-family: 'Satisfy', cursive;
+	}
+
+	&__ul{
+	animation: moveInLeft 1.5s ease-out;
+	}
+}

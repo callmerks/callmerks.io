@@ -1,0 +1,71 @@
+// FLEX BOXES
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+// UNORDERED LISTS
+.ul{
+	list-style: none;
+	&__li{
+	text-decoration:  none;
+	float: right;
+	}
+	&__li-a{
+	color: $color-white;
+	padding: 0 1rem;
+	text-decoration: none; 
+	}
+}
+// TEXT-BOXES - TEXT
+.headingOnGreen{
+    position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	&__primary{
+	display: block;
+	text-transform: uppercase;
+	font-size: 3rem;
+	}
+	&__sub{
+	display: block;
+	}
+	&__btn{
+	display: block;
+	}
+}
+
+.headingOnWhite{
+	&__primary{
+	font-size: 4rem;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right, 
+	rgba($color-main, 0.8), 
+	rgba($color-dark, 0.8));
+	display: inline-block;
+	-webkit-background-clip: text;
+	color: transparent;
+	}
+	&__sub{
+	display: block;
+	}
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+// MARGIN/ PADDING
+.section-padding{
+	padding: 15rem 2rem 2rem 2rem;
+}
+
+.margin-top-2{
+	margin-top: 2rem;
+}
+
+.margin-bottom-8{
+	margin-bottom: 8rem;
+}
